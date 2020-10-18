@@ -1,0 +1,45 @@
+heml, body, header, article, p, aside, footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+header, article, p, aside, footer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+header{
+    background-color: orangered;
+    padding: 20px 0;
+}
+
+article{
+    padding: 20px 10px;
+    background-color: aqua;
+}
+
+aside:first-of-type{
+    padding: 20px 0;
+    background-color: darkorange;
+}
+
+aside:nth-last-of-type(1){
+    padding: 20px 0;
+    background-color: deeppink;
+}
+
+footer{
+    padding: 20px 0;
+    background-color: limegreen;
+}

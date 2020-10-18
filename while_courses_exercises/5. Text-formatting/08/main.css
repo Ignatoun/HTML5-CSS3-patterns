@@ -1,0 +1,16 @@
+p{
+    max-width: 550px;
+    margin: 0 auto;
+    border: 2px dashed deeppink;
+    text-indent: 1rem;
+    font-family: sans-serif;
+}
+
+p::first-line{
+    color: aqua;
+    font-style: italic;
+}
+
+p::first-letter{
+    font-weight: 700;
+}

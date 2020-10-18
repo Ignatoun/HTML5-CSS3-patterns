@@ -1,0 +1,15 @@
+a:link{
+    color:aqua;
+}
+
+a:visited{
+    color:darkgoldenrod;
+}
+
+a:hover{
+    color:tomato;
+}
+
+a:active{
+    color:gold;
+}

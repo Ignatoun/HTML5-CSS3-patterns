@@ -1,0 +1,9 @@
+div{
+    background-color: aqua;
+    border: 3px solid black;
+    border-radius: 30%;
+    width: 8.5%;
+    height: 50px;
+    display: inline-block;
+    margin:10px;
+}

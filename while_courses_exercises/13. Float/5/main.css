@@ -1,0 +1,19 @@
+body{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+nav{
+    float: left;
+    width: 25%;
+}
+
+main{
+    width: 75%;
+    float: right;
+}
+
+main, nav{
+    border: 3px solid black;
+    box-sizing: border-box;
+}

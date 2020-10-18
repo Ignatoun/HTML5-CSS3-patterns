@@ -1,0 +1,65 @@
+html, body, svg, symbol, use, div, main{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 1vw;
+    font-family: sans-serif;
+}
+
+#atf{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/*    border: 1px solid deepskyblue;*/
+    border-radius: 5px;
+}
+
+#beer{
+    border: 1px solid deepskyblue;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 0;
+    height: 80%;
+    width: 100%;
+}
+
+#price{
+    border: 1px solid deepskyblue;
+    height: 20%;
+    width: 100%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgba(0,0,255,.4);
+}
+
+#beer, #price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 14rem;
+    height: 14rem;
+    fill: rgba(0,0,255,.4);
+}
+
+span{
+    font-size: 1.8rem;
+    color: royalblue;
+    
+}

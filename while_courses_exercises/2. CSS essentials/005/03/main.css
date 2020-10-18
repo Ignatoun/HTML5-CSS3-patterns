@@ -1,0 +1,13 @@
+div {
+    width: 600px;
+    height: 350px;
+    background-color: red;
+    border-radius: 50px;
+    border: 10px groove tomato;
+    background-image: url(path/to/some/image/boom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: 100px;
+}

@@ -1,0 +1,25 @@
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    animation-name: txtgrow;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    text-shadow: 5px 5px 20px ;
+}
+
+@keyframes txtgrow{
+    0%{font-size: 4rem;}
+    100%{font-size: 16rem;}
+}

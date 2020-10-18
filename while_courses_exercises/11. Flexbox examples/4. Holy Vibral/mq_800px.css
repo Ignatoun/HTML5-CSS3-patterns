@@ -1,0 +1,22 @@
+aside:first-of-type{
+    width: 15%;
+    order:2;
+}
+
+aside:last-of-type{
+    width: 15%;
+    order:4;
+}
+
+article{
+    width:70%;
+    order:3;
+}
+
+header{
+    order:1;
+}
+
+footer{
+    order:5;
+}

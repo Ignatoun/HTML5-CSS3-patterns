@@ -1,0 +1,17 @@
+#relative{
+    border: 3px solid red;
+    background-color: aqua;
+    width: 60%;
+    height: 500px;
+    position: relative;
+}
+
+#absolute{
+    border: 3px solid violet;
+    background-color: orange;
+    top: 200px;
+    right:40px;
+    position: absolute;
+    height: 100px;
+    width: auto;
+}

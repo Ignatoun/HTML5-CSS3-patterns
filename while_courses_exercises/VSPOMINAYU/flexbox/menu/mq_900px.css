@@ -1,0 +1,17 @@
+body{
+    width: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.c1{
+    width:70%;
+}
+
+.c2{
+    width: 30%;
+}
+
+.c3, .c4, .c5{
+    width: 33.33%;
+}

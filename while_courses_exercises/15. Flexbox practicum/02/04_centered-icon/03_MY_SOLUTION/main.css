@@ -1,0 +1,36 @@
+html, body, svg, symbol, div{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: darkgray;
+    font-size: 1vw;
+}
+
+#atf{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-svg{
+    
+    font-size: 10rem;
+/*    stroke: darkgray;*/
+    fill: darkgray;
+}
+
+button{
+    background-color: white;
+    border: 1px solid darkgray;
+    border-radius: 100%;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

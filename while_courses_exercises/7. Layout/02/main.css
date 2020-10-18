@@ -1,0 +1,8 @@
+*{
+    border: 1px dashed hotpink;
+}
+
+li{
+    display: inline-block;
+}
+

@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+    background-color: deepskyblue;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid white;
+}
+
+a:hover{
+    background-color: dodgerblue;
+}
+
+a:last-child{
+    border-bottom:none;
+}

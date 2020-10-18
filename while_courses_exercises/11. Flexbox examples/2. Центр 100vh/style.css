@@ -1,0 +1,13 @@
+div{
+    display: flex;
+    height: 100vh;
+    flex-flow: row wrap;
+    align-items: center;
+    width:100%;
+    border: 15px solid red;
+    justify-content: center;
+}
+
+p{
+    font-size: 4em;
+}

@@ -1,0 +1,78 @@
+html, div, svg, body, p, h2{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: gray;
+    font-size: 1vw;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#atf{
+    font-size: 6rem;
+    text-align: center;
+}
+
+footer{
+    height: 10rem;
+    margin: 0 3rem;
+    border-top: 2px solid dimgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#left, #right{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sync, #saving, button{
+    margin: .75rem;
+}
+
+#saving, button{
+    font-size: 4rem;
+}
+
+.sync{
+    width: 5rem;
+    height: 5rem;
+    fill: currentColor;
+    animation-name: syncronizing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes syncronizing{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#left-button{
+    color: deepskyblue;
+}
+
+#right-button{
+    color: white;
+    background-color: deepskyblue;
+}

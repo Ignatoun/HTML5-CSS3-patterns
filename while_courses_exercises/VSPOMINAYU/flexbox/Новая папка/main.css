@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.c1, .c2, .c3, .c4, .c5{
+    width: 100%;
+    min-height: 75px;
+}
+
+.c1{
+    background-color: aqua;
+}
+
+.c2{
+    background-color: cadetblue;
+}
+
+.c3{
+    background-color: darkgoldenrod;
+}
+
+.c4{
+    background-color: darkred;
+}
+
+.c5{
+    background-color: chartreuse;
+}

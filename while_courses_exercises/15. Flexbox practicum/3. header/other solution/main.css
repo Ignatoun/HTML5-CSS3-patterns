@@ -1,0 +1,184 @@
+html, body, svg, header, nav, h1, a, div{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: white;
+    font-size: 1vw;
+}
+
+.icon{
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+}
+
+.icon-sm-in{
+    font-size: 1.4rem;
+}
+
+.icon-big-in{
+    font-size: 20rem;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    border-bottom: 1px solid darkgray;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+}
+
+button{
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: inherit;
+    padding: 10px 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: lightgray;
+    color: #000;
+}
+
+#atf{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hotpink;
+}
+
+h1{
+    color: rgba(169,169,169,0.87);
+    font-size: 10rem;
+    letter-spacing: .7rem;
+    text-transform: uppercase;
+}
+
+
+
+/*
+html{
+    font-family: 'Cantarell', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: azure;
+}
+
+header{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav{
+    margin-left: 1rem;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    font-size: 1.2rem;
+}
+
+header nav a svg{
+    height: 35px;
+    width: 35px;
+    fill: white;
+    padding: 
+}
+
+header nav a:hover{
+    background-color: white;
+    color: dimgray;
+}
+
+header nav a svg, header nav a:hover{
+    fill: currentColor;
+}
+
+header div{
+    margin-right: 1rem;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header div a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    font-size: 1.2rem;
+}
+
+header div a:hover{
+    background-color: white;
+    color: dimgray;
+}
+
+#svg-taxi{
+    width: 25vw;
+    height: 25vw;
+    fill: pink;
+}
+
+h1{
+    font-size: 4.5vw;
+    color: darkgray;
+*/
+}

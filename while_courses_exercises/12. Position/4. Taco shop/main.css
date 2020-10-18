@@ -1,0 +1,19 @@
+body{
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#left{
+    border: 2px solid black;
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    
+}
+
+#right{
+    border: 2px solid red;
+    margin-left: 204px;
+    height: 400px;
+}

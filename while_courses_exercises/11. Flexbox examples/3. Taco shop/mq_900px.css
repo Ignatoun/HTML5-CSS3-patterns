@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    align-content: center;
+}
+
+ul{
+    display: flex;
+    flex-flow: column nowrap;
+}
